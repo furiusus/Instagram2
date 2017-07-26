@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compra</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="vendor/materialize-v0.98.2/css/materialize.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script type="text/javascript" src="vendor/angular-1.6/angular.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="vendor/materialize-v0.98.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="app/js/app.js"></script>
+    <script type="text/javascript" src="app/js/controlador/controller.js"></script>
+</head>
+<body ng-app="App" ng-controller="MyController" bgcolor="#f0f8ff">
+<nav>
+    <div class="nav-wrapper">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="">Registrar venta</a></li>
+            <li><a href="">Mostrar ventas</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="row center-align">
+    <div class="input-field col s12">
+        <input id="nombre" type="text" class="validate" ng-model="nombreProveedor">
+        <label for="nombre">Proveedor</label>
+    </div>
+</div>
+<div class="row center-align">
+    <div class="input-field col s12">
+        <input id="ruc" type="text" class="validate" ng-model="ruc">
+        <label for="ruc">RUC</label>
+    </div>
+</div>
+<div class="row center-align">
+    <div class="input-field col s12">
+        <input id="producto" type="text" class="validate" ng-model="producto">
+        <label for="producto">Cliente</label>
+    </div>
+</div>
+<div class="row center-align">
+    <div class="input-field col s12">
+        <input id="cantidad" type="text" class="validate" ng-model="cantidad">
+        <label for="cantidad">Cantidad</label>
+    </div>
+</div>
+<div class="row center-align">
+    <div class="input-field col s12">
+        <input id="precio" type="text" class="validate" ng-model="precio">
+        <label for="precio">Precio de Compra</label>
+    </div>
+</div>
+
+</body>
+</html>
