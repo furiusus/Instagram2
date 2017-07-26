@@ -1,0 +1,37 @@
+a.logo{
+    background-image: url(Images/LogoInstagram/d21416.png);
+    background-repeat: no-repeat;
+    background-position:-244px -1px;
+    padding:1px 0 26px 109px;
+}
+b.logofb{
+    background-image: url(Images/LogoInstagram/d21416.png);
+    background-repeat:no-repeat ;
+    background-position: -355px -276px;
+    padding: 0 16px 0px 0;
+}
+input.border1{
+    border: 1px solid darkgrey;
+    border-radius: 4px ;
+    width: 300px;
+    height: 40px;
+}
+a.cond{
+    text-decoration-style: double;
+    color: slategray;
+}
+a.dowload{
+    color: slategray;
+}
+img.dowload{
+    height: 40px;
+    width: auto;
+}
+ul.movilfondo{
+    background-image: url(Images/Mobile/Mobile1.png);
+    background-repeat: no-repeat;
+}
+img.imagpas{
+    height:300px;
+    width: 98px;
+}
